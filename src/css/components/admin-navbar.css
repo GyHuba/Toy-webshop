@@ -1,0 +1,27 @@
+.admin-nav{
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    box-shadow: 0px 7px 13px -3px rgba(101,122,123,0.2);
+}
+.admin-navbar-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 45px;
+}
+.admin-navlink{
+    text-decoration: none;
+    color: var(--oxford-blue);
+    padding: 5px;
+    border: 1px solid var(--naples-yellow);
+    
+}
+.admin-navlink:hover{
+    border-bottom: 1px solid var(--oxford-blue);
+}
+.admin-navlink.active{
+    font-weight: bold;
+}

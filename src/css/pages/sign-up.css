@@ -1,0 +1,84 @@
+.sign-up-wall{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #88D3BB, #FFD970);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-auth-container {
+    width: 450px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+
+.signup-title-wrap{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.sign-card-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sign-input:focus {
+    background: #fbf6f1;
+}
+.sign-input{
+    border: none;
+    outline: none;
+    background: rgba(182, 165, 165, 0.3);
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    border-radius: 100px;
+    width:80%;
+    
+    
+}
+.sign-btn-log {
+    border: none;
+    margin-top: 0.5rem;
+    background: #88D3BB;
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 60%;  
+}
+
+.sign-btn-log:hover {
+    background-color: #0b2f4c;
+    cursor: pointer;
+}
+.signbtn{
+    text-align: center;
+}
+
+.sign-show-pass-btn{
+    font-size: 1.5rem;
+   margin-right: 1rem;
+
+}
+.sign-card-footer{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.errorMsg{
+    color: var(--bittersweet-red);
+    text-align: center;
+    font-size: larger;
+}

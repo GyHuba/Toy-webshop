@@ -1,0 +1,15 @@
+.admin-list.zebra-table{
+    width: 800px;
+}
+.zebra-table.admin-list > thead th:nth-child(1){
+    width: 35%;
+}
+.zebra-table.admin-list > thead th:nth-child(2){
+    width: 30%;
+}
+.zebra-table.admin-list > thead th:nth-child(3){
+    width: 5%;
+}
+.zebra-table.admin-list > thead th:nth-child(4){
+    width: 35%;
+}

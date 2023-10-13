@@ -1,0 +1,17 @@
+.search-wrapper{
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: var(--pure-white);
+    padding-left: 5px;
+}
+.search-input{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.search-btn{
+    padding: 10px;
+    border: none;
+}

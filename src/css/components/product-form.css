@@ -1,0 +1,44 @@
+/* .form-card{
+    width: 350px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: var(--pure-white);
+    overflow: hidden;
+    box-shadow: 0px 8px 15px -3px rgba(101,122,123,0.1);
+    margin: 30px 0;
+}
+.form-card > h2{
+    background-color: var(--naples-yellow);
+    color: var(--oxford-blue);
+    padding: 20px;
+}
+.card > form{
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card > form > label{
+    color: var(--slate-gray)
+}
+.card > form > input, textarea, select{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--slate-gray);
+}
+.card > form > input:focus, textarea:focus, select:focus{
+    outline: 1px solid var(--bittersweet-red);
+    border: 1px solid var(--bittersweet-red);
+}
+.card > form > textarea{
+    resize: none;
+}
+button{
+    align-self: flex-end;
+}
+.back-btn-wrap{
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+} */

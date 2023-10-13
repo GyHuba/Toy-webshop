@@ -1,0 +1,26 @@
+.page-buttons{
+    padding: 1rem;
+}
+.button {
+    text-decoration: none;
+    color: var(--oxford-blue);
+    padding: 0.2rem 0.3rem;
+    margin-left: 0.05rem;
+    background-color: var(--pure-white);
+    border: solid var(--oxford-blue) 1px;
+    border-radius: 3px;
+}
+.current {
+    font-weight: bold;
+    color: var(--bittersweet-red);
+}
+.button-cart {
+    text-decoration: none;
+    color: var(--oxford-blue);
+    font-size: 0.8rem;
+    padding: 0.1rem 0.1rem;
+    margin-left: 0.1rem;
+    background-color: var(--pure-white);
+    border: solid var(--oxford-blue) 1px;
+    border-radius: 3px;
+}

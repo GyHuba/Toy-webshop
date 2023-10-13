@@ -1,0 +1,15 @@
+.catlink-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.catlink-ul button:hover{
+    color: var(--pure-white);
+    background-color: var(--bittersweet-red);
+}
+.catlink-card{
+    align-self: flex-start;
+}

@@ -1,0 +1,108 @@
+.login-wall{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, var(--tiffany-blue), var(--naples-yellow));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-auth-container {
+    width: 450px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+<<<<<<< HEAD
+.auth-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, .15);
+    transform: rotate(-6deg);
+    border-radius: 10px;
+    z-index: -1;
+
+}
+
+.login-title-wrap{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+=======
+>>>>>>> 132762c4dcb45d7895f585a75dfa29eb0d3e2fae
+.login-card-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: large;
+    
+    
+}
+.login-input:focus {
+    background: var(--creamy-white);
+}
+.login-input{
+    border: none;
+    outline: none;
+    background: rgba(182, 165, 165, 0.3);
+    padding: 1rem 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 100px;
+    width:75%;
+    
+    
+}
+.login-btn-log {
+    border: none;
+    margin-top: 0.5rem;
+    background: var(--tiffany-blue);
+    color: var(--pure-white);
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 50%;  
+}
+
+.login-btn-log:hover {
+    background-color: var(--oxford-blue);
+    cursor: pointer;
+}
+.loginbtn{
+    text-align: center;
+}
+
+.show-pass-btn{
+    font-size: 1.6rem;
+    display: inline-block;
+    
+
+
+}
+.login-card-footer{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.errorMsg{
+    color: var(--bittersweet-red);
+    text-align: center;
+    font-size: larger;
+}
+.login-wall a{
+    color: var(--oxford-blue)
+}
+.login-wall a:hover{
+    color: var(--tiffany-blue)
+}

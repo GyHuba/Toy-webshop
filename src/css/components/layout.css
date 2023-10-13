@@ -1,0 +1,26 @@
+.layout-container {
+    display: grid;
+    grid-template-areas:
+        "nav nav"
+        "outlet outlet"
+        "footer footer"
+    ;
+    
+}
+.nav-container {
+    grid-area: nav;
+    height: 130px;
+}
+
+.outlet-container {
+    grid-area: outlet;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.footer-container {
+    grid-area: footer;
+}

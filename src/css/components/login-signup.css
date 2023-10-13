@@ -1,0 +1,13 @@
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.error-msg{
+    display: none;
+}
+
+.error-div{
+    color: red;
+    font-size: larger;
+}

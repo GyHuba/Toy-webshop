@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    --oxford-blue: #0b2f4c;
+    --pure-white: #FDFDFD;
+    --creamy-white: #fbf6f1;
+    --slate-gray: #657a7b;
+    --slate-gray-transparent: rgba(101, 122, 123, 0.2);
+    --tiffany-blue: #88D3BB;
+    --tiffany-transparent: rgba(136, 211, 187, 0.3);
+    --tiffany-darkblue: #7cc8b0;
+    --naples-yellow: #FFD970;
+    --bittersweet-red: #F15D55;
+   
+}
+/* BACKGROUND CLASSES */
+.blue-bg{
+    background-color: var(--tiffany-blue);
+    color: var(--oxford-blue)
+}
+.transp-blue-bg{
+    background-color: var(--tiffany-transparent);
+    color: var(--oxford-blue);
+}
+.red-bg{
+    background-color: var(--bittersweet-red);
+    color: var(--pure-white);
+}
+.yellow-bg{
+    background-color: var(--naples-yellow);
+    color: var(--oxford-blue);
+}
+.creamy-bg{
+    background-color: var(--creamy-white);
+    color: var(--oxford-blue);
+}
+/* TEXT COLORS */
+.dark-text{
+    color: var(--oxford-blue)
+}
+.grey-text{
+    color: var(--slate-gray);
+}
+.blue-text{
+    color: var(--tiffany-darkblue)
+}
+
+/* BUTTONS */
+.red-btn{
+    color: var(--pure-white);
+    background-color: var(--bittersweet-red);
+    border: 1px solid var(--bittersweet-red);
+    text-decoration: none;
+}
+.red-outline-btn{
+    color: var(--bittersweet-red);
+    background-color: var(--pure-white);
+    border: 1px solid var(--bittersweet-red);
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+    transform :  scale(1.03);
+}
+button:active{
+    transform : scale(.95);
+}
+.card button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* CARDS */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    gap: 2rem;
+}
+.card{
+    width: 300px;
+    border-radius: 15px;
+    background-color: var(--pure-white);
+    overflow: hidden;
+    box-shadow: 0px 8px 15px -3px rgba(101,122,123,0.1);
+}
+.card > h2, .card > h3{
+    background-color: var(--naples-yellow);
+    color: var(--oxford-blue);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card > h3 > button{
+    background-color: var(--naples-yellow);
+    border: none;
+    color: var(--bittersweet-red);
+    font-size: 18px;
+}
+.card-content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column; 
+}
+.card .btn-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* INPUTS & FORMS */
+.card.form-card{
+    width: 400px;
+}
+.form-card > form{
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-card > label{
+    color: var(--slate-gray)
+}
+.form-card textarea{
+    resize: none;
+    height: 3rem;
+}
+.prod-form-input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--slate-gray);
+}
+.prod-form-input:focus{
+    outline: none;
+    border: 1px solid var(--tiffany-darkblue);
+}
+input::file-selector-button{
+    color: var(--slate-gray);
+    border: 1px solid var(--slate-gray);
+    background-color: var(--pure-white);
+    padding: 8px;
+    border-radius: 8px;
+}
+input::file-selector-button:hover{
+    cursor: pointer;
+}
+input::file-selector-button:active{
+    border: 1px solid var(--tiffany-darkblue);
+}
+
+/* TABLE */
+.zebra-table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: var(--pure-white);
+    color: var(--oxford-blue);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px -3px rgba(101,122,123,0.1);
+    margin-top: 3rem;
+}
+.zebra-table > thead > tr{
+    background-color: var(--naples-yellow);
+    padding: 10px;
+}
+.zebra-table th{
+    text-align: left;
+}
+.zebra-table > tbody tr:nth-child(even){
+    background-color: var(--tiffany-transparent);
+}
+.zebra-table th, td{
+    padding: 10px 20px;
+}
+.zebra-table .table-btn-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.zebra-table button{
+    padding: 5px;
+    border-radius: 8px;
+}
+.zebra-table a{
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.empty-card{
+    margin-top: 8rem;
+    text-align: center;
+    
+}
+.img-sad{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
